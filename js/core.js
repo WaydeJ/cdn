@@ -1,3 +1,4 @@
+alert('hello');
 function toCdnUrl(e) {
     var t = pfData.config.hosts.cdn;
     return 0 === e.indexOf(t) ? e : t + e
